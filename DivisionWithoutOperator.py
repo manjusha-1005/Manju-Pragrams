@@ -6,4 +6,4 @@ for i in range(31,0,-1):
     if (var+divisor<<i)<=dividend:
         var=var+divisor<<i
         q=q|(1<<i)
-        print(q)
+    print(q)
